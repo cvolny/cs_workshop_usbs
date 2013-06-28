@@ -1,0 +1,6 @@
+In the top left of the screen, click Applications then in the menu click Ubuntu Software Center
+
+Search for pacman in the search box (top right of the window)
+click install and wait
+
+This installed a pacman game under Applications > Games > Pacman.  It's not a very good version of pacman, but it's free.  You'll notice that installation went very quickly, that's because the software center does not build its software in the same fashion that we just did with lynx.  Instead of building the program from source code when you want to install it, a pre-compiled version is downloaded from an Ubuntu server and installed (basically it's like skipping configure and make to go straight to make install).

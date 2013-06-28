@@ -1,0 +1,8 @@
+temp.cpp is a Temperature Converter program written in C++.  To run it, it must first be compiled.  To do so, open a terminal (right click in current directory, click Open Terminal) and type the following commands:
+
+# compile temp.cpp using g++ utility and put result in file temp
+g++ temp.cpp -o temp
+# run the command in the current directory
+./temp
+# to delete this executable later:
+rm temp

@@ -1,0 +1,39 @@
+We're going to download and install Lynx Terminal Web Browser (and you thought Internet Explorer looked bad)
+
+* Open the Link included in this directory.
+* Follow the link to download the most recent stable release (lynx2-8-7)
+* download the distribution in bzip2 tar format
+* Installation instructions are available using the link INSTALLATION
+	- there's a lot in there, most of it we won't worry about
+	- the important stuff is given to you below
+* once the file is downloaded, open it in the archive manager
+* drag the directory (lynx2-8-7) to the desktop
+* double click the directory to open it
+* open a terminal in that directory
+* run the following commands (sudo let's you run as an administrator):
+
+# check for any required build dependencies and configure the source
+./configure
+# build the source
+sudo make
+# install the program
+sudo make install
+
+* now you should be able to run the below command to view facebook.
+
+# launch www.facebook.com in lynx browser
+lynx www.facebook.com
+
+* to move around the page, use the arrow keys.  Once you've had enough trying to browse the web like it's 1985, press q to quit, and y to confirm.
+
+
+# you can uninstall lynx by typing
+sudo make uninstall
+
+* the problem with installing software with this approach is:
+	- it's time consuming to download, unpack, and compile software
+	- some packages depend on other software which will need to be installed first
+	- sometimes these dependancy lists are very large (installing software package ABC requires another 50 packages to be installed first)
+
+The next assignment shows how there exist very easy utilities to handle dependancies and installation for you.
+

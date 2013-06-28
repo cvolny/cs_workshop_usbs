@@ -1,0 +1,4 @@
+hello.py is a Hello World program written in Python.  Python is a scripting language so it doesn't need to be compiled to be executed.  To run it, open a terminal (right click in current directory, click Open Terminal) and type the following command:
+
+# run the python script using the python utility
+python hello.py

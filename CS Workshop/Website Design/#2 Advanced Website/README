@@ -1,0 +1,19 @@
+Now you're going to edit the XML document in this directory to contain the information you used for the last website.  XML is a very well formed document structure that has very strict rules about what order information can occur and what characters you can use.
+
+To edit the file open it in a text editor and enter the information where the placeholders are. For example, where you see YOUR_NAME, enter your name.
+
+Once this is completed, we're going to use an XML Style Transform Document (XSL Document) to convert this xml into html.  Right click and open a terminal in the current directory then run this command:
+
+# render HTML out of XSL and XML
+xsltproc aboutme.xsl aboutme.xml
+
+The order of those commands are important. xsltproc is the command that takes a stylesheet (aboutme.xsl) and an xml document (aboutme.xml) and generates web browser readable markup (HTML). It doesn't do us any good to look at this in a terminal so let's write the data out to a file and open it in a browser.
+
+# render HTML out of XSL and XML then write it to a file
+xsltproc aboutme.xsl aboutme.xml > aboutme.html
+
+The part at the end takes the output of the command and writes it to the new file, aboutme.html.
+
+Now open aboutme.html in a browser (like Firefox or Chromium) and see what it looks like. You can do this by opening it from the file browser, opening a browser and then opening the file via File>Open..., or from the command line by typing "firefox aboutme.html" or "chroimum-browser aboutme.html".
+
+XSL can be used to design entire websites from one template file and different xml files.  XML is the universal transport format between almost any application so you will very likely come across it in the future.  For more information about XML and XSL, please visit the links in this directory.

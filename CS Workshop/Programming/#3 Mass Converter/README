@@ -1,0 +1,3 @@
+Now you're going to write a pounds to kilograms converter program given a flow diagram and the sample code you had before.
+
+Look over the Mass Converter flow diagram and you should be able to quickly write this in C++ and Python using the Temperature converter example as a reference.

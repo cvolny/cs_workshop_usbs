@@ -1,0 +1,20 @@
+Sometimes we want to install packages that aren't already available in the Ubuntu package repositories. Now we're going to install the latest version of Google Chrome from the Google website.
+
+Visit http://www.google.com/chrome/ in a web browser
+Click "Download Google Chrome"
+Select the 32-bit .deb Debian/Ubuntu Package
+Glance at the Terms of Usage Agreement (everyone skips this step, but it's Google so they already know everything about you...)
+Click Accept and Install
+This should download a .deb package, when it is finished downloading, Open it.
+
+This should automatically launch the Package installer utility. Click Install to continue.
+
+You can expand the terminal box to see what is going on behind the scene
+
+Click Close when the installation finishes. Now you have Google Chrome installed under Applications>Internet>Google Chrome
+
+
+
+You might wonder what the difference between Google Chrome and Chromium is since they look the same. Chrome is a compiled product offered by Google for no charge while Chromium is a free and open source software project for the web browser. There are features included in Google Chrome that don't come with Chromium that are proprietary (not freely distributable in source code form).
+
+Another example is Firefox, Opera, and Internet Explorer web browsers. Firefox is Free, Open Source Software (FOSS or Libre - Free as in Speech), Opera is proprietary no charge software (Gratis, Free as in [root] Beer), and Internet Explorer is proprietary and is licensed only to Microsoft Windows systems (and Microsoft Windows has a price tag).

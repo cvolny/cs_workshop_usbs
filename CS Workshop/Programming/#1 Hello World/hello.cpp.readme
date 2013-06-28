@@ -1,0 +1,8 @@
+hello.cpp is a Hello World program written in C++.  To run it, it must first be compiled.  To do so, open a terminal (right click in current directory, click Open Terminal) and type the following commands:
+
+# compile hello.cpp using g++ utility and put result in file hello
+g++ hello.cpp -o hello
+# run the command in the current directory
+./hello
+# to delete the executible later
+rm hello

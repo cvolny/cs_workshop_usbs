@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="aboutme.xsl"?>
+<person>
+	<name>YOUR_NAME</name>
+	<age>YOUR_AGE</age>
+	<hometown>YOUR_HOMETOWN</hometown>
+	<favorites>
+		<subject>FAVORITE_SUBJECT</subject>
+		<pizza>FAVORITE_PIZZA_TOPPING</pizza>
+		<team>FAVORITE_SPORTS_TEAM</team>
+	</favorites>
+	<hobbies>
+		<hobby>FIRST_HOBBY</hobby>
+		<hobby>SECOND_HOBBY</hobby>
+		<hobby>THIRD_HOBBY</hobby>
+	</hobbies>
+</person>
+		
