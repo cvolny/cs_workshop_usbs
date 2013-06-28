@@ -1,0 +1,9 @@
+[autorun]
+open=wubi.exe
+icon=ut.ico
+label=UT-EECS 2013
+
+[Content]
+MusicFiles=false
+PictureFiles=false
+VideoFiles=false
