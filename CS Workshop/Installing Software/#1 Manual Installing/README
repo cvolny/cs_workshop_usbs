@@ -19,10 +19,10 @@ sudo make
 # install the program
 sudo make install
 
-* now you should be able to run the below command to view facebook.
+* now you should be able to run the below command to view Google Search.
 
-# launch www.facebook.com in lynx browser
-lynx www.facebook.com
+# launch www.google.com in lynx browser
+lynx www.google.com
 
 * to move around the page, use the arrow keys.  Once you've had enough trying to browse the web like it's 1985, press q to quit, and y to confirm.
 
