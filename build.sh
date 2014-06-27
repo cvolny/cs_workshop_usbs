@@ -20,7 +20,7 @@ if [ -z "$ISO" -o ! -r "$ISO" ]; then
 	exit 127
 fi
 
-DRIVE=`mount | awk '/vfat/ { print $1 }'`
+DRIVE=`mount | grep -v /boot/efi | awk '/vfat/ { print $1 }'`
 if [ -z "$DRIVE" ]; then
 	echo "No vfat formatted drive found."
 	exit 1
@@ -46,6 +46,6 @@ rm -rf "$MOUNT/*"
 mlabel -i "$DRIVE" ::"STAGE1"
 unetbootin method=diskimage isofile="$ISO" targetdrive="$DRIVE" persistentspace=8 autoinstall=yes
 mlabel -i "$DRIVE" ::"STAGE2"
-rsync --progress $OVERRIDES/* "$MOUNT"
+rsync -avz --progress $OVERRIDES/* "$MOUNT"
 mlabel -i "$DRIVE" ::"$LABEL"
 umount "$DRIVE"
